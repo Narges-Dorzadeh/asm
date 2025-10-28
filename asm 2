@@ -1,0 +1,15 @@
+while True:
+    print("1)menu")
+    print("2)add name")
+    print("3)add number")
+    print("4)avg")
+    print("5)exit")
+    option = input("enter option")
+    if option == "5":
+        break
+1)menu
+2)add name
+3)add number
+4)avg
+5)exit
+enter option
