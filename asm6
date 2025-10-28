@@ -1,0 +1,10 @@
+while True:
+    number = int(input("enter your number:"))
+    if number == 0 :
+        break
+
+enter your number:1
+enter your number:21
+enter your number:34
+enter your number:78
+enter your number:0
