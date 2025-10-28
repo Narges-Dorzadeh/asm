@@ -1,0 +1,16 @@
+name_list=[]
+while True :
+    name = input("enter your name:")
+    if name == "exsit":
+        break
+    else :
+      name_list.append(name)
+
+      
+print(name_list)
+enter your name:zahra
+enter your name:yasna
+enter your name:sedna
+enter your name:daria
+enter your name:exsit
+['zahra', 'yasna', 'sedna', 'daria']
