@@ -1,0 +1,6 @@
+my_text="here i python class"
+
+print(my_text.find("class"))
+
+
+14
