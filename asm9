@@ -1,0 +1,38 @@
+name_list=[]
+while True:
+    print("1)add name")
+    print("2)show list")
+    print("0)exit")
+    option=input("enter your option=")
+    
+    if option == "1":
+        name = input("enter your name:")
+        name_list.append(name)
+    elif option == "2":
+        print("your list :" , name_list)
+    elif option == "0":
+        break
+    else:
+        print("FINISH")
+
+
+
+1)add name
+2)show list
+0)exit
+enter your option=1
+enter your name:ANA
+1)add name
+2)show list
+0)exit
+enter your option=1
+enter your name:HANA
+1)add name
+2)show list
+0)exit
+enter your option=2
+your list : ['ANA', 'HANA']
+1)add name
+2)show list
+0)exit
+enter your option=0
