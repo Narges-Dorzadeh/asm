@@ -1,0 +1,50 @@
+name_list=[]
+while True :
+    print("1)add name")
+    print("2)show list")
+    print("3)remove name")
+    option = input("enter your name:")
+    
+    
+    
+    if option=="1":
+        name=input("ente your name")
+        name_list.append(name)
+    elif option == "2":
+        print("your list",name_list)
+    elif option == "3" :
+        remove_name=input("enter name you want to remove")
+        name_list.remove(remove_name)
+    elif option == "0" :
+        break
+    else:
+        print("invalid option")
+
+ar=
+1)add name
+2)show list
+3)remove name
+enter your name: 1
+enter your name anahita
+1)add name
+2)show list
+3)remove name
+enter your name: 1
+enter your name narges
+1)add name
+2)show list
+3)remove name
+enter your name : 2
+your list['anahita' , ' narges']
+1)add name
+2)show list
+3)remove name
+enter your name : 3
+enter name you want to remove narges
+1)add name
+2)show list
+3)remove name
+enter your name : 2
+your list ['anahita']
+1)enter your name : 0
+FINISH
