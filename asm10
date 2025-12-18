@@ -1,0 +1,9 @@
+x=[1,2,20,10,17,18]
+
+
+def add(a):
+    return a + 5
+
+
+val= list(map(add,x))
+print(val)
